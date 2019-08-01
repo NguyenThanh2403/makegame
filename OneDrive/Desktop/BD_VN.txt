@@ -1,0 +1,39 @@
+Public class B1 {
+	B1* getNext(){
+	  if(=='B' ) return B3;
+	  if(==' ') return B1;
+	  retuen B2;
+	}
+     	char* toString(){
+	  System.out.printf("Wrong");
+	}
+};
+Public class B2 extends B1 {
+	B1* getNext(){
+	  if(==' ') return B1;
+	  retuen B2;
+	}
+};
+Public class B3 extends B1 {
+	B1* getNext(){
+	  if(=='D' ) return B4;
+	  if(==' ') return B1;
+	  return B2;
+	}
+};
+Public class B4 extends B1 {
+	B1* getNext(){
+	  if(==' ') return B5;
+	  retuen B2;
+	}
+};
+Public class B5 extends B1 {
+	B1* getNext(){
+	  if(==' ') return B5;
+	  if(=='V'||=='U') return B6
+	  return B2;
+	}
+};
+Public static Facroty{
+
+}
